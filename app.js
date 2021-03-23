@@ -4,9 +4,9 @@ const cors = require('cors')
 const app = express()
 app.use(cors())
 
+const data = require('./data')
+
  
-app.get('/', function (req, res) {
-  res.send('Hello World!!')
-})
+app.get('/data', data.fetchData)
  
-app.listen(process.env.PORT || 3000)
+app.listen(process.env.PORT || 1790) 
