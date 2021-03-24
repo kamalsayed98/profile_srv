@@ -11,12 +11,12 @@ module.exports = [
         title:"Swimming",
         percentage: 60,
     },
+    // {
+    //     title:"Drifting",
+    //     percentage: 44,
+    // },
     {
-        title:"Byces",
-        percentage: 44,
-    },
-    {
-        title:"Sky",
+        title:"Snowboarding",
         percentage: 53,
     },
 ]

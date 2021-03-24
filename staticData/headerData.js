@@ -13,10 +13,10 @@ module.exports = {
             text: "Projects",
             href: "cv",
         },
-        {
-            text: "Friends",
-            href: "friends",
-        },
+        // {
+        //     text: "Friends",
+        //     href: "friends",
+        // },
         {
             text: "Hobbies",
             href: "info",
